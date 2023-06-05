@@ -1,6 +1,8 @@
+{% load static %}
 <html>
     <head>
-            <link rel="stylesheet" href="kurafan.css">  
+            <link rel="stylesheet" href="../../../static/css/home.css"> 
+            <title>cubesugar</title>
     </head>
     <body>
         <header>
@@ -10,20 +12,41 @@
             <nav class="pc-nav">
                 <ul>
                     <li><a href="#">ログイン</a></li>
-                    <li><a href="#">新規登録</a></li>
+                    <li><a href="http://127.0.0.1:8000/upload_app/">新規登録</a></li>
                 </ul>
             </nav>
         </header>
         <main>
             <ul>
-                <li><img src="./images/IMG_4983.JPG" width="400" height="300" alt=""></li>
-                <li><img src="./images/IMG_4988.JPG" width="400" height="300" alt=""></li>
-                <li><img src="./images/S__50315268.jpg" width="400" height="300" alt=""></li>
+                <li>
+                    <a href="https://dot-parade-e51.notion.site/4-5-0c525cebf6bf4fafa0bc4e3cc249b86a#4866a31929864469aebc9651e932ad30">
+                        <img src="../../../../media/img/garden_of_talents_Instagramの投稿正方形.png" width="400" height="300" alt="">
+                    </a>
+                </li>
+                <li><img src="../../../../media/img/v3_32.png" width="400" height="300" alt=""></li>
+                <li><img src="../../../../media/img/v3_38.png" width="400" height="300" alt=""></li>     
+                <!-- {% for image in images %}
+                    <li class="image-list"><img class="myImageClass" src="{{ image.image.url }}" alt="" width="400" height="300"></li>
+                {% endfor %}  -->
+                <!-- <ul class="flex-container">
+                    {% for image in images %}
+                      <li class="flex-item"><img class="myImageClass" src="{{ image.image.url }}" alt=""></li>
+                    {% endfor %}
+                </ul> -->
+                <!-- <ul class="image-list">
+                    {% for image in images %}
+                        {% if forloop.counter0|divisibleby:3 and not forloop.first %}
+                            </ul><ul class="image-list">
+                        {% endif %}
+                        <li><img class="myImageClass" src="{{ image.image.url }}" alt="" width="400" height="300"></li>
+                    {% endfor %}
+                </ul> -->
+                
             </ul>
             <ul>
-                <li><img src="./images/IMG_4983.JPG" width="400" height="300" alt=""></li>
-                <li><img src="./images/IMG_4988.JPG" width="400" height="300" alt=""></li>
-                <li><img src="./images/S__50315268.jpg" width="400" height="300" alt=""></li>
+                <li><img src="../../../../media/img/v3_52.png" width="400" height="300" alt=""></li>
+                <li><img src="../../../../media/img/v3_54.png" width="400" height="300" alt=""></li>
+                <li><img src="../../../../media/img/v3_72.png" width="400" height="300" alt=""></li>
             </ul>
         </main>
         <footer>

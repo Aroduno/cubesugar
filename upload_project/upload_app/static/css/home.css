@@ -30,7 +30,7 @@ ul{
     display: flex;
 }
 li{
-    margin: 15px 0 0 15px;
+    margin: 15px 0 0 10px;
     font-size: 14px;
 }
 nav{
@@ -47,6 +47,43 @@ footer {
     padding: 50px 0;
     background-color: darkolivegreen;
 }
+
 .footer-text {
     color: #fff;
 }
+
+/* .flex-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 1600px;
+  }
+  
+  .flex-item {
+    width: 400px;
+    height: 400px;
+    margin: 10px;
+  }
+  
+  .myImageClass {
+    max-width: 100%;
+    height: auto;
+  }
+  
+
+/* .image-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+}
+  
+.image-list li {
+    width: calc(33.33% - 10px); /* 3つの画像を横に並べるための幅調整 */
+    /* margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.image-list li:nth-child(3n+1) {
+    clear: left; 
+/* 新しい行を開始する */
